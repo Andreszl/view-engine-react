@@ -1,0 +1,37 @@
+{
+  "name": "view-engine-react",
+  "version": "1.0.0",
+  "description": "\"# view-engine-react\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js --ignore public/",
+    "dev": "webpack -wd",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andreszl/view-engine-react.git"
+  },
+  "author": "andreszl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andreszl/view-engine-react/issues"
+  },
+  "homepage": "https://github.com/Andreszl/view-engine-react#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^1.17.2",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-engine": "^4.5.1"
+  }
+}
